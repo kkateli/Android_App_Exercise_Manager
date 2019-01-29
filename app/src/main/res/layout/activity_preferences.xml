@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp"
+    android:background="@color/offBlack">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:background="@color/offBlack">
+
+
+        <TextView
+            android:id="@+id/relaxationText"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="40dp"
+            android:text="Relaxation"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/learningDropDown" />
+
+        <TextView
+            android:id="@+id/learningText"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_marginTop="40dp"
+            android:text="Learning"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/exerciseDropDown" />
+
+
+        <Spinner
+            android:id="@+id/exerciseDropDown"
+            style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/colorWhite"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/exerciseText" />
+
+        <Spinner
+            android:id="@+id/learningDropDown"
+            style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/colorWhite"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/learningText" />
+
+        <Spinner
+            android:id="@+id/leisureDropDown"
+            style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/colorWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relaxationText" />
+
+        <Button
+            android:id="@+id/doneButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonstylepink"
+            android:gravity="center"
+            android:text="Done"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leisureDropDown" />
+
+        <TextView
+            android:id="@+id/exerciseText"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_marginTop="70dp"
+            android:text="Exercise"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/customText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Custom"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/doneButton" />
+
+        <TextView
+            android:id="@+id/prefText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Preference Setup"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/exerciseText"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
+</ScrollView>

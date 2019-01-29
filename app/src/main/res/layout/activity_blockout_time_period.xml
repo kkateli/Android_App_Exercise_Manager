@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlockoutTimePeriodActivity"
+    android:background="@color/offBlack">
+
+
+    <TextView
+        android:id="@+id/createCustomActivityText"
+        android:layout_width="0dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="Block out time periods as desired!"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/fromText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="48dp"
+        android:text="Block from:"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createCustomActivityText" />
+
+    <Spinner
+        android:id="@+id/fromSpinner"
+        style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="311dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/colorWhite"
+        app:layout_constraintBottom_toTopOf="@+id/block"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createCustomActivityText"
+        app:layout_constraintVertical_bias="0.224" />
+
+    <TextView
+        android:id="@+id/toView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Block to:"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/block"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fromSpinner"
+        app:layout_constraintVertical_bias="0.086" />
+
+    <Spinner
+        android:id="@+id/toSpinner"
+        style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="315dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="47dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/colorWhite"
+        app:layout_constraintBottom_toTopOf="@+id/block"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toView"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/block"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="104dp"
+        android:background="@drawable/buttonstylepink"
+        android:text="Block Times"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/deleteAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Unblock All"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cancel" />
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Cancel"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/block"
+        app:layout_constraintVertical_bias="0.272" />
+
+
+</android.support.constraint.ConstraintLayout>

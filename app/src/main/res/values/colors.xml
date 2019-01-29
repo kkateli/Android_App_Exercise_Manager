@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#262938</color>
+    <color name="colorPrimaryDark">#181A24</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorTransparentWhite">#cccccc</color>
+    <color name="blackColor">#000</color>
+    <color name="lightorange">#fdf2df</color>
+    <color name="lightorangedark">#edb6ab</color>
+    <color name="offBlack">#16151A</color>
+    <color name="eventColor">#553fa9eb</color>
+    <color name="handColor">#F6CAD2</color>
+    <color name="eventColorSelected">#aab2c99a</color>
+</resources>

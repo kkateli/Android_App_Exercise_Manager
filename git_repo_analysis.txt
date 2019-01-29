@@ -1,0 +1,52 @@
+GIT-REPO-ANALYSIS
+
+	poujo381 <poujo381@student.otago.ac.nz>:
+	  insertions:    468 (6%)
+	  deletions:     80 (3%)
+	  files:         18 (5%)
+	  commits:       6 (9%)
+	  lines changed: 548
+	  first commit:  Mon Apr 23 16:26:56 2018 +1200
+	  last commit:   Wed May 16 16:01:33 2018 +1200
+
+	cnnrduncan <cnnrduncan@protonmail.com>:
+	  insertions:    16 (0%)
+	  deletions:     2 (0%)
+	  files:         2 (1%)
+	  commits:       2 (3%)
+	  lines changed: 18
+	  first commit:  Thu Apr 26 17:40:51 2018 +1200
+	  last commit:   Thu Apr 26 18:05:01 2018 +1200
+
+	kate <katelee817@outlook.com>:
+	  insertions:    1447 (20%)
+	  deletions:     68 (3%)
+	  files:         45 (12%)
+	  commits:       18 (26%)
+	  lines changed: 1515
+	  first commit:  Thu Apr 12 22:26:27 2018 +1200
+	  last commit:   Mon May 21 16:20:48 2018 +1200
+
+	craigjoe <fejoa2@gmail.com>:
+	  insertions:    343 (5%)
+	  deletions:     230 (10%)
+	  files:         16 (4%)
+	  commits:       5 (7%)
+	  lines changed: 573
+	  first commit:  Sat Apr 21 11:42:28 2018 +1200
+	  last commit:   Fri May 4 17:25:33 2018 +1200
+
+	Harry Ellerm:
+	  insertions:    4237 (69%)
+	  deletions:     1916 (83%)
+	  files:         253 (77%)
+	  commits:       35 (54%)
+	  lines changed: 7042
+	  first commit:  Sat Mar 10 14:55:39 2018 +1300
+	  last commit:   Wed May 23 03:04:20 2018 +1200
+
+	total:
+	  insertions:    7400 (100%)
+	  deletions:     2296 (100%)
+	  files:         365 (100%)
+	  commits:       68 (100%)

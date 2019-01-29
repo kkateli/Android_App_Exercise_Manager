@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name"><font color='white'>Daily Calendar</font></string>
+    <string name="string_title">Welcome to DayBuildr!</string>
+    <string name="welcome_description">Sign in below to get started.</string>
+    <string name="your_almost_ready">You\'re almost ready!</string>
+    <string name="login_string">Login</string>
+    <string name="sign_up_desc">Sign up below.</string>
+    <string name="title_activity_nav_draw"></string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="current_day_date">2018</string>
+    <string name="current_date">23 April 2018</string>
+    <string name="location_title">LOCATION</string>
+    <string name="time_to">10:00 AM</string>
+    <string name="time_from">8:00 AM</string>
+    <string name="time_to_time">To:</string>
+    <string name="enter_description">Enter description</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="title">TITLE</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="add_new">Add New</string>
+    <string name="date">DATE</string>
+    <string name="from">From:</string>
+    <string name="enter_location">Enter Location</string>
+    <string name="back_sign">back sign</string>
+    <string name="tick_sign">tick sign</string>
+</resources>

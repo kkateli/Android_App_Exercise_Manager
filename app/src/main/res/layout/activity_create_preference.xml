@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.unigroup.otagouniproj2.CreatePreference"
+    android:background="@color/offBlack">
+
+    <TextView
+        android:id="@+id/createCustomActivityText"
+        android:layout_width="0dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="64dp"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="Create a custom activity below!"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Spinner
+        android:id="@+id/categoryDropDown"
+        style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="312dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createCustomActivityText" />
+
+    <EditText
+        android:id="@+id/editPrefText"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="10dp"
+        android:hint="Preference"
+        android:paddingLeft="8dp"
+        android:inputType="textEmailAddress"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/categoryDropDown" />
+
+    <Button
+        android:id="@+id/createPreferenceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/buttonstylepink"
+        android:text="Create"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/categoryDropDown" />
+
+    <TextView
+        android:id="@+id/categoryText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Category"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/categoryDropDown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/cancelCreatePrefText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Cancel"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createPreferenceButton" />
+
+</android.support.constraint.ConstraintLayout>

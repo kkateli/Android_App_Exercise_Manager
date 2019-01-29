@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.unigroup.otagouniproj2.LoginActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="91dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
+        android:padding="25dp"
+        android:text="@string/your_almost_ready"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/signInText"
+        android:layout_width="357dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="22dp"
+        android:padding="25dp"
+        android:text="@string/sign_up_desc"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeText" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="590dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout7"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signInText">
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+            android:drawablePadding="10dp"
+            android:hint="EMAIL"
+            android:inputType="textEmailAddress"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:drawablePadding="10dp"
+            android:hint="PASSWORD"
+            android:inputType="textPassword"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <EditText
+            android:id="@+id/nameText"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_name"
+            android:drawablePadding="10dp"
+            android:hint="NAME"
+            android:inputType="textPersonName"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="590dp"
+        android:layout_height="193dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+
+        <Button
+            android:id="@+id/signUpButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonstylelightborder"
+            android:text="Sign Up"
+            android:textColor="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/textLogin"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/login_string"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="21dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signInText" />
+
+</android.support.constraint.ConstraintLayout>

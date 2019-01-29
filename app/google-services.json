@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "273187818522",
+    "firebase_url": "https://otagouniproj2.firebaseio.com",
+    "project_id": "otagouniproj2",
+    "storage_bucket": "otagouniproj2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273187818522:android:c913e7a10e6e8175",
+        "android_client_info": {
+          "package_name": "com.unigroup.otagouniproj2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273187818522-ej3u90svg5743jg2f33ofm3mlj9fu7lp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.unigroup.otagouniproj2",
+            "certificate_hash": "eb2d78fbeb86fa4cc7e06820961f2d50dd7f2e14"
+          }
+        },
+        {
+          "client_id": "273187818522-540cjijc6t23p6sj9pnk1s1g1a5apc29.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAArNR4pSYpgQoD3tYnkLRqAQmDRjXjBIs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273187818522-540cjijc6t23p6sj9pnk1s1g1a5apc29.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
